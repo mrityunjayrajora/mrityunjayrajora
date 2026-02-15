@@ -50,31 +50,31 @@
 
 ## 🚀 Featured Projects
 
-### 🧬 Parkinson's Disease Detection Using ML
-> *Healthcare Analytics — Biomedical voice dataset, PCA, SHAP explainability*
+### � [PostMaster AI](https://github.com/mrityunjayrajora/PostMaster-AI) — *Never miss an AI breakthrough again*
+> I was spending **2+ hours daily** scrolling through papers, blogs, and feeds just to write one LinkedIn post about AI. So I built an engine that does it for me — in **30 seconds**.
 
-- Analyzed **195 samples** with **22 acoustic features** for binary classification
-- Applied **PCA** to compress features from 22 → 8 while retaining **95% variance**
-- Compared 5 ML models — achieved **94% accuracy** with Random Forest
-- Deployed prediction API using **FastAPI** with SHAP explainability
+PostMaster reads **13 top-tier AI/ML feeds** (MIT, Google AI, OpenAI, Substacks) every day, uses **Gemini 3 Pro** to extract the deepest technical insight from each article, and generates a **ready-to-post LinkedIn draft** — complete with hooks, takeaways, and hashtags.  
+One-click posting via **LinkedIn OAuth2**. A glassmorphism **Next.js 16** dashboard to review, edit, and schedule. A content scoring engine that ranks articles by relevance so you only post what matters.
 
-### 📉 Customer Churn Prediction with MLOps Pipeline
-> *Predictive Analytics — 7,000+ customers, XGBoost, MLflow, Docker*
+`FastAPI` · `Gemini 3 Pro` · `Next.js 16` · `Tailwind CSS 4` · `Framer Motion` · `RSS Intelligence`
 
-- Built end-to-end churn system with **89% precision** and **85% recall**
-- Engineered behavioral features & handled class imbalance using **SMOTE**
-- Tuned **XGBoost & LightGBM** via **Optuna**; tracked experiments in **MLflow**
-- Developed **Streamlit dashboard** with real-time predictions & SHAP plots
-- Containerized with **Docker** for reproducible deployment
+---
 
-### 📊 Retail Sales Forecasting & BI System
-> *Time Series Analysis — PostgreSQL, ARIMA, Prophet, LSTM, Power BI*
+### 🧬 [Parkinson's Disease Detection](https://github.com/mrityunjayrajora/parkinsons-disease-analytics) — *Can a voice recording predict neurodegeneration?*
+> Early Parkinson's diagnosis is notoriously difficult — by the time tremors show up, **60% of dopamine neurons are already gone**. I explored whether subtle voice biomarkers could catch it earlier.
 
-- Designed **star-schema data warehouse** with automated **ETL pipeline**
-- Developed forecasting models achieving **91% accuracy** (MAPE: 9%) for 30-day predictions
-- Performed **ADF stationarity tests**, **ACF/PACF analysis**, and **seasonal decomposition**
-- Built executive **Power BI dashboard** with drill-down capabilities
-- Deployed on **Azure** for 500+ SKUs, reducing manual reporting by **85%**
+Trained on **195 biomedical voice samples** with **22 acoustic features** (jitter, shimmer, HNR). Used **PCA** to compress the feature space from 22 → 8 dimensions while keeping **95% variance**. Benchmarked **5 ML models** — **Random Forest hit 94% accuracy**. Every prediction is backed by **SHAP explanations**, so clinicians can see *which* vocal features flagged the diagnosis. Deployed as a **FastAPI** prediction API ready for integration.
+
+`scikit-learn` · `PCA` · `SHAP` · `FastAPI` · `Random Forest` · `Healthcare AI`
+
+---
+
+### 📉 Customer Churn Prediction — *Stop losing customers before they leave*
+> A telecom company losing **26% of customers annually** doesn't have a retention problem — it has a *prediction* problem. I built the system that catches at-risk users **before** they churn.
+
+Engineered behavioral features from **7,000+ customer records**, tackled severe class imbalance with **SMOTE**, and ran a hyperparameter tournament across **XGBoost & LightGBM** using **Optuna** — all tracked in **MLflow**. Final model: **89% precision, 85% recall**. Built a **Streamlit dashboard** where support teams can see real-time churn risk scores with **SHAP-powered explanations** of *why* each customer is flagged. Containerized with **Docker** so it ships anywhere.
+
+`XGBoost` · `LightGBM` · `Optuna` · `MLflow` · `SMOTE` · `Streamlit` · `Docker`
 
 ---
 
